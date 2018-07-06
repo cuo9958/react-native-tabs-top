@@ -1,0 +1,7 @@
+{
+    "githubUrl": "https://gitee.com/cuo9958/react-native-tabs",
+    "ios": true,
+    "android": true,
+    "web": false,
+    "expo": false
+  }

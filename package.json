@@ -1,0 +1,16 @@
+{
+    "name": "react-native-tabs-top",
+    "version": "0.7.3",
+    "description": "tab标签的头部组件.点击触发跳转事件并将触发的tab移动到app中间位置.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitee.com/cuo9958/react-native-tabs.git"
+    },
+    "keywords": ["react-native", "tabs","react-component"],
+    "author": "疯狂紫萧",
+    "license": "MIT"
+}
