@@ -1,5 +1,7 @@
 # react-native-tabs
 
+![](http://resource.guofangchao.com/github/rn-tabs-top.gif)
+
 #### 项目介绍
 tab标签的头部组件.点击触发跳转事件并将触发的tab移动到app中间位置.
 
