@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React,{ Component } from 'react';
 import {
     StyleSheet,
     View,
@@ -11,6 +11,10 @@ import {
 const dimen = Dimensions.get('window');
 const deviceWidth = dimen.width;
 
+function px(size) {
+
+    return Math.round(deviceWidth / 750 * size);
+}
 /**
  * tab组件头部
  * props    data    tab列表
@@ -28,7 +32,7 @@ export default class TabBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            index: -1,
+            index: props.index,
         }
         this.scroll = null;
         this.laout_list = []
